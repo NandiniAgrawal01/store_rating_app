@@ -113,5 +113,5 @@ This project is licensed under the MIT License.
 
 ### 🧑‍🏫 Author
 Nandini Agrawal
-📧 nandiniagrawal139@gmail.com
-🔗 https://www.linkedin.com/in/nandini-agrawal-874132245/ 
+- 📧 nandiniagrawal139@gmail.com
+- 🔗 https://www.linkedin.com/in/nandini-agrawal-874132245/ 
