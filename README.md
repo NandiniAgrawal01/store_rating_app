@@ -31,79 +31,77 @@ This is a full-stack web application built with the **MERN stack** (MySQL + Expr
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-git clone https://github.com/NandiniAgrawal01/store_rating_app.git
-cd store_rating_app
+- git clone https://github.com/NandiniAgrawal01/store_rating_app.git
+- cd store_rating_app
 
 ### 2. Setup Environment Variables
 Create .env files in backend directories.
 
 📁 backend/.env
-PORT=5000
-DB_HOST=localhost
-DB_USER=your_mysql_user
-DB_PASSWORD=your_mysql_password
-DB_NAME=your_database_name
-JWT_SECRET=your_jwt_secret
+- PORT=5000
+- DB_HOST=localhost
+- DB_USER=your_mysql_user
+- DB_PASSWORD=your_mysql_password
+- DB_NAME=your_database_name
+- JWT_SECRET=your_jwt_secret
 
 ### 3. Install Dependencies
 📦 Backend
-cd backend
-npm install
+- cd backend
+- npm install
 
 💻 Frontend
-cd frontend
-npm install
+- cd frontend
+- npm install
 
 ### 4. Initialize the Database
 Make sure MySQL is running. Then execute the schema in your SQL client or terminal:
+- CREATE DATABASE your_database_name;
+- USE your_database_name;
 
-CREATE DATABASE your_database_name;
-
-USE your_database_name;
-
--- Add your user, store, and rating tables here
--- You can use backend/config.sql file for the table queries
+- Add your user, store, and rating tables here
+- You can use backend/config.sql file for the table queries
 
 ### 5. Run the Application
 🔧 Start Backend Server
-cd backend
-npm run dev
-Runs on http://localhost:5000
+- cd backend
+- npm run dev
+- Runs on http://localhost:5000
 
 💻 Start Frontend
-cd frontend
-npm start
-Runs on http://localhost:3000
+- cd frontend
+- npm start
+- Runs on http://localhost:3000
 
 ---
 
 ## 🧪 Using the Application
 
 ### 👩‍💼 Admin Features
-View total users, stores and ratings count
-View all users and stores
-Create or update users/stores
-Expand user details
-See ratings for store owners
+- View total users, stores and ratings count
+- View all users and stores
+- Create or update users/stores
+- Expand user details
+- See ratings for store owners
 
 ### 🛍️ Store Owner Features
-View own store average rating
-View list of users who rated their store
-Update password
+- View own store average rating
+- View list of users who rated their store
+- Update password
 
 ### 👤 Normal User Features
-View list of all registered stores
-Add or update ratings in different stores
-Update password
+- View list of all registered stores
+- Add or update ratings in different stores
+- Update password
 
 ---
 
 ## 📚 Project Structure Summary
 
-frontennd/ – React + MUI frontend
-backend/ – Node.js and Express.js backend with routing and MySQL integration
-README.md – Full documentation
-.env – Secrets and configuration
+- frontennd/ – React + MUI frontend
+- backend/ – Node.js and Express.js backend with routing and MySQL integration
+- README.md – Full documentation
+- .env – Secrets and configuration
 
 ---
 
